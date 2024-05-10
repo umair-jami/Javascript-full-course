@@ -1,36 +1,34 @@
-// synchronus vs Asynchronus programming
-
-
+//synchronous programming vs asynchronous programming
 //synchronous programming
-//in this of programming code execute line by line there code is block 
-//when loop will end next line will print if there is infinite loop then last line will not print
-//javascript is synchronous programmin language and sinle threaded
+//synchronous programming single threaded
+
+//synchronus programming execute line by line
+// console.log("script start");
+// for (let i = 1; i < 10000; i++) {
+//   console.log("inside for loop");
+// }
+// console.log("script end");
+
+//setTimeout
+
 console.log("script start");
-for(let i=0;i<1;i++){
-    console.log("inside for loop")
+// function hello() {
+//   console.log("hello world");
+// }
+
+//there setTimeout take time into milli second mean 1000==1second
+
+//we can write function inside setTimeout also
+
+//setTimeout gives us id if we want that the setTimeout function works no more then we should use clearTimeout
+const id = setTimeout(() => {
+  console.log("hello world");
+}, 1000);
+console.log("setTimeout id is", id);
+console.log("clearing time out");
+clearTimeout(id);
+// setTimeout(hello, 1000);
+for (let i = 1; i < 10; i++) {
+  console.log("....");
 }
-
-console.log("script end")
-
-
-// setTimeout
-//idher ye function as a input ek function ley ga or time ly ga milisecond mai
-//time means ky iss line ko print kitni der bad kerwana hai 
-
-
-console.log("script start")
-function hello(){
-    console.log("inside setTimeout")
-
-}
-setTimeout(hello, 1000);
-for(let i=0;i<=1000;i++){
-    console.log(".....")
-}
-
-
-
-
-console.log("script end")
-
-
+console.log("script end");
