@@ -13,22 +13,22 @@
 // spread operator in object
 
 // in object same key can't exist
-//if same key is repeated then the issecond key will accept
+//if same key is repeated then the second key will accept
 
 const obj1 = {
-    key1:'value1',
-    key2:'value2',
-}
+  key1: "value1",
+  key2: "value2",
+};
 const obj2 = {
-    key3:'value3',
-    key4:'value4',
-}
+  key3: "value3",
+  key4: "value4",
+};
 
-const newobj = {...obj1,...obj2}
-console.log(newobj)
+const newobj = { ...obj1, ...obj2 };
+console.log(newobj);
 
-const obj ={...'abcdef'}
-console.log(obj)
+const obj = { ..."abcdef" };
+console.log(obj);
 
-const obj3 ={...['item1','item2']}
-console.log(obj3) 
+const obj3 = { ...["item1", "item2"] };
+console.log(obj3);
