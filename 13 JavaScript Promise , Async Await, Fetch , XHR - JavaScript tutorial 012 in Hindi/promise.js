@@ -1,5 +1,5 @@
 //primise
-//promises are saynchromus programming
+//promises are Asaynchromus programming
 //there we produce promise
 console.log("script start");
 const bucket = ["coffee", "chips", "vegetable", "sal", "rice"];

@@ -1,5 +1,5 @@
 const todoform = document.querySelector(".form-todo")
-const todotext =document.querySelector(".form-todo input[type='text")
+const todotext =document.querySelector(".form-todo input[type='text']")
 const todolist=document.querySelector(".todo-list")
 
 // todoform.addEventListener("submit",(e)=>{
