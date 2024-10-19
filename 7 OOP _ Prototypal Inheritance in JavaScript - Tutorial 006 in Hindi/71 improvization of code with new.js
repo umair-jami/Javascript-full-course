@@ -1,4 +1,4 @@
-//new keyword
+//improved code with new keyword
 
 //this is constructor function
 function Creatuser(firstname,lastname,email,age,adress){

@@ -1,3 +1,4 @@
+// set function
 //getter and setter
 //if we print const person1.fullname='umair raza' then the value of firstname and last name should be change
 

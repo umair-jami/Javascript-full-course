@@ -1,3 +1,4 @@
+//Summary of all array important mehods
 //forEach method works as a for loop
 //map method works same but it return vlaue and we can store this value in variable and then console it
 

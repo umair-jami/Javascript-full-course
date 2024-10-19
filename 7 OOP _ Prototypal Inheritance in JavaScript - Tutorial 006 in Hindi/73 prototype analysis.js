@@ -1,3 +1,5 @@
+// prototype analysis
+
 //internely every array is creat with new keyword but we write simple array for our ease
 
 

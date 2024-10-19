@@ -18,10 +18,10 @@ class person {
 
   // 2nd method
   //agar hum chahty hai ky simple person1.fullname='umair raza' likhy or name change ho jai to hum ko set method use kerna chahiye
-  set fullname(fullname){
-    const [firstname,lastname] = fullname.split(" ")
-    this.firstname=firstname
-    this.lastname=lastname
+  set fullname(fullname) {
+    const [firstname, lastname] = fullname.split(" ");
+    this.firstname = firstname;
+    this.lastname = lastname;
   }
 }
 
@@ -36,8 +36,7 @@ console.log(person1.fullname);
 // person1.firstname = "raza";
 // person1.lastname = "somroo";
 
-
 // method 2
-person1.fullname="umair raza"
+person1.fullname = "umair raza";
 
 console.log(person1.fullname);

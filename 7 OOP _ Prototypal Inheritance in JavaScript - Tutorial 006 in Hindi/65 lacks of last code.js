@@ -1,4 +1,4 @@
-//lack of
+//lacks of last code
 const usermethod={
     about:function(){
         return `${this.firstname} is ${this.age} years old.`

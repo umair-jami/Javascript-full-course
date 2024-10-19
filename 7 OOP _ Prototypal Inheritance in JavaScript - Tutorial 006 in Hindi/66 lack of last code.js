@@ -1,4 +1,4 @@
-//lack of
+//lacks of last code
 // if we want to creat 1 lakh method than it is mecessary to add thier inforamtion in function so for this difficulity we use object.creat it link function with object
 const usermethod={
     about:function(){

@@ -1,5 +1,4 @@
-//new keyword
-
+// hasOwnProperty
 
 function Creatuser(firstname,lastname,email,age,adress){
     this.firstname=firstname;

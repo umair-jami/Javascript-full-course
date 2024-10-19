@@ -1,3 +1,4 @@
+//link of proto and prototype
 //when we have prototype mean empty object of each function then we don't have need of extra object so we finish this object and store data into prototype
 // const usermethod={
     // about:function(){
